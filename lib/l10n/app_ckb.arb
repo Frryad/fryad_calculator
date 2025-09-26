@@ -1,0 +1,75 @@
+{
+    "@@locale": "ckb",
+
+    "calculatorTitle": "ژمێرەر",
+    "@calculatorTitle": {},
+
+    "menuHeader": "مێنۆ",
+    "@menuHeader": {},
+
+    "standardCalculator": "ژمێرەری ستاندارد",
+    "@standardCalculator": {},
+
+    "darkMode": "دۆخی تاریک",
+    "@darkMode": {},
+
+    "language": "زمان",
+    "@language": {},
+
+    "currencyConversions": "گۆڕینەوەی دراو",
+    "@currencyConversions": {},
+
+    "error": "هەڵە",
+    "@error": {},
+
+    "poundToDinar": "پاوەند → دینار",
+    "@poundToDinar": {},
+
+    "tomanToDinar": "تمەن → دینار",
+    "@tomanToDinar": {},
+
+    "dollarToDinar": "دۆلار → دینار",
+    "@dollarToDinar": {},
+
+    "dinarToPound": "دینار → پاوەند",
+    "@dinarToPound": {},
+
+    "dinarToToman": "دینار → تمەن",
+    "@dinarToToman": {},
+
+    "dinarToDollar": "دینار → دۆلار",
+    "@dinarToDollar": {},
+
+    "dinarPrice": "نرخی دینار",
+    "@dinarPrice": {},
+
+    "poundPrice": "نرخی پاوەند",
+    "@poundPrice": {},
+
+    "tomanPrice": "نرخی تمەن",
+    "@tomanPrice": {},
+
+    "dollarPrice": "نرخی دۆلار",
+    "@dollarPrice": {},
+
+    "poundRate": "نرخی پاوەند",
+    "@poundRate": {},
+
+    "poundAmount": "بڕی پاوەند",
+    "@poundAmount": {},
+
+    "dollarRate": "نرخی دۆلار",
+    "@dollarRate": {},
+
+    "tomanAmount": "بڕی تمەن",
+    "@tomanAmount": {},
+
+    "tomanRate": "نرخی تمەن",
+    "@tomanRate": {},
+
+    "dollarAmount": "بڕی دۆلار",
+    "@dollarAmount": {},
+    
+    "dinarAmount": "بڕی دینار",
+    "@dinarAmount": {}
+}

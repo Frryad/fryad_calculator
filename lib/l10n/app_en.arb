@@ -1,0 +1,75 @@
+{
+    "@@locale": "en",
+
+    "calculatorTitle": "Calculator",
+    "@calculatorTitle": {},
+
+    "menuHeader": "Menu",
+    "@menuHeader": {},
+
+    "standardCalculator": "Standard Calculator",
+    "@standardCalculator": {},
+
+    "darkMode": "Dark Mode",
+    "@darkMode": {},
+
+    "language": "Language",
+    "@language": {},
+
+    "currencyConversions": "Currency Conversions",
+    "@currencyConversions": {},
+
+    "error": "Error",
+    "@error": {},
+
+    "poundToDinar": "Pound → Dinar",
+    "@poundToDinar": {},
+
+    "tomanToDinar": "Toman → Dinar",
+    "@tomanToDinar": {},
+
+    "dollarToDinar": "Dollar → Dinar",
+    "@dollarToDinar": {},
+
+    "dinarToPound": "Dinar → Pound",
+    "@dinarToPound": {},
+
+    "dinarToToman": "Dinar → Toman",
+    "@dinarToToman": {},
+
+    "dinarToDollar": "Dinar → Dollar",
+    "@dinarToDollar": {},
+
+    "dinarPrice": "Dinar Price",
+    "@dinarPrice": {},
+
+    "poundPrice": "Pound Price",
+    "@poundPrice": {},
+
+    "tomanPrice": "Toman Price",
+    "@tomanPrice": {},
+
+    "dollarPrice": "Dollar Price",
+    "@dollarPrice": {},
+
+    "poundRate": "Pound rate",
+    "@poundRate": {},
+
+    "poundAmount": "Pound amount",
+    "@poundAmount": {},
+
+    "dollarRate": "Dollar Rate",
+    "@dollarRate": {},
+
+    "tomanAmount": "Toman amount",
+    "@tomanAmount": {},
+
+    "tomanRate": "Toman rate",
+    "@tomanRate": {},
+
+    "dollarAmount": "Dollar amount",
+    "@dollarAmount": {},
+
+    "dinarAmount": "Dinar amount",
+    "@dinarAmount": {}
+}

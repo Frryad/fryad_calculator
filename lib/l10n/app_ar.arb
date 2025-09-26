@@ -1,0 +1,75 @@
+{
+    "@@locale": "ar",
+
+    "calculatorTitle": "آلة حاسبة",
+    "@calculatorTitle": {},
+
+    "menuHeader": "القائمة",
+    "@menuHeader": {},
+
+    "standardCalculator": "حاسبة قياسية",
+    "@standardCalculator": {},
+
+    "darkMode": "الوضع الداكن",
+    "@darkMode": {},
+
+    "language": "اللغة",
+    "@language": {},
+
+    "currencyConversions": "تحويل العملات",
+    "@currencyConversions": {},
+
+    "error": "خطأ",
+    "@error": {},
+
+    "poundToDinar": "باوند → دينار",
+    "@poundToDinar": {},
+
+    "tomanToDinar": "تومان → دينار",
+    "@tomanToDinar": {},
+
+    "dollarToDinar": "دولار → دينار",
+    "@dollarToDinar": {},
+
+    "dinarToPound": "دينار → باوند",
+    "@dinarToPound": {},
+
+    "dinarToToman": "دينار → تومان",
+    "@dinarToToman": {},
+
+    "dinarToDollar": "دينار → دولار",
+    "@dinarToDollar": {},
+
+    "dinarPrice": "سعر الدينار",
+    "@dinarPrice": {},
+
+    "poundPrice": "سعر الباوند",
+    "@poundPrice": {},
+
+    "tomanPrice": "سعر التومان",
+    "@tomanPrice": {},
+
+    "dollarPrice": "سعر الدولار",
+    "@dollarPrice": {},
+
+    "poundRate": "سعر الباوند",
+    "@poundRate": {},
+
+    "poundAmount": "مبلغ الباوند",
+    "@poundAmount": {},
+
+    "dollarRate": "سعر الدولار",
+    "@dollarRate": {},
+
+    "tomanAmount": "مبلغ التومان",
+    "@tomanAmount": {},
+
+    "tomanRate": "سعر التومان",
+    "@tomanRate": {},
+
+    "dollarAmount": "مبلغ الدولار",
+    "@dollarAmount": {},
+
+    "dinarAmount": "مبلغ الدينار",
+    "@dinarAmount": {}
+}
