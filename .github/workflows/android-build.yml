@@ -1,41 +1,51 @@
-# Name of the workflow
-name: Build and Release Android APK
+# Name for your workflow, which will appear in the Actions tab on GitHub
+name: Build Flutter Android APK
 
-# This workflow now runs ONLY when you push a new tag (e.g., v1.0.1)
+# This section defines the trigger for the workflow.
+# It will run automatically every time you push code to the 'main' or 'master' branch.
 on:
   push:
-    tags:
-      - 'v*' # Triggers on tags like v1.0, v1.1.0, etc.
+    branches: [ "main", "master" ]
 
+# This section defines the jobs to be executed.
 jobs:
   build:
+    # The type of virtual machine to run the job on. 'ubuntu-latest' is standard for Android.
     runs-on: ubuntu-latest
+
+    # These are the individual steps the virtual machine will follow.
     steps:
+      # Step 1: Checks out your repository's code onto the runner
       - name: Checkout code
         uses: actions/checkout@v4
 
+      # Step 2: Sets up the Java Development Kit (JDK) required for Android builds
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
 
+      # Step 3: Sets up the Flutter SDK on the virtual machine
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          channel: 'stable'
-          cache: true
+          channel: 'stable' # Use the stable channel of Flutter
+          cache: true # Caches Flutter dependencies for faster builds
 
+      # Step 4: Gets all the Flutter packages for your project
       - name: Install dependencies
         run: flutter pub get
 
+      # Step 5: Runs the command to build the release APK
       - name: Build APK
         run: flutter build apk --release
 
-      # This is the NEW step that creates the release
-      - name: Create GitHub Release and Upload APK
-        uses: softprops/action-gh-release@v2
+      # Step 6: Takes the generated APK file and uploads it as a downloadable artifact
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
         with:
-          # This makes the release body whatever you wrote in your tag message
-          body_path: ${{ github.event.head_commit.message }}
-          files: build/app/outputs/flutter-apk/app-release.apk
+          # The name of the artifact file you will download
+          name: release-apk
+          # The path to the generated APK file
+          path: build/app/outputs/flutter-apk/app-release.apk
