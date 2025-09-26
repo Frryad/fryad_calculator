@@ -1,4 +1,4 @@
-# fryad_calculator
+# fryad_calculato
 
 A new Flutter project.
 
